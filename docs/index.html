@@ -1,3 +1,104 @@
-<ul>
-<li></li><a href="lab01.html">Lab01</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development - Lab01</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .project-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .project-card h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .project-card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Game Development Projects</h1>
+        <p class="subtitle">Explore the various projects and labs in our game development course.</p>        
+        <div class="project-card">
+            <h2>Project 1: Game Concept</h2>
+            <p>Introduction to game design principles and basic game mechanics.</p>
+            <a href="lab01.html" class="btn">View Details</a>
+        </div>
+        
+        <div class="project-card">
+            <h2>Project 2: Game Assets</h2>
+            <p>Creating and organizing game sprites, textures, and audio resources.</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+        
+        <div class="project-card">
+            <h2>Project 3: Game Prototype</h2>
+            <p>Building the first playable prototype with basic mechanics.</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+    </div>
+</body>
+</html>
